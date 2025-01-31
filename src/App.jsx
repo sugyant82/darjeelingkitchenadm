@@ -9,7 +9,8 @@ import MenuBar from './components/MenuBar/MenuBar'
 
 const App = () => {
 
-  const url= import.meta.env.VITE_BACKEND_URL;
+  //const url= import.meta.env.VITE_BACKEND_URL;
+  const url = "https://darjeelingkitchenbe.onrender.com";
 
   return (
     <div>
