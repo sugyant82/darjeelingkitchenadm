@@ -1,6 +1,5 @@
 import React from 'react'
-import SideBar from './components/sideBar/SideBar'
-import Navbar from './components/Navbar/Navbar'
+import Sidebar from './components/sideBar/Sidebar'
 import { Route, Routes } from 'react-router-dom'
 import Add from './pages/Add/Add'
 import List from './pages/List/List'
@@ -14,10 +13,10 @@ const App = () => {
   return (
     <div>
       <ToastContainer/>
-      <Navbar/>
+      <Sidebar/>
       <hr/>
       <div className="app-content">
-        <SideBar/>
+        <Sidebar/>
         <Routes>
           <Route path="/add" element={<Add url={url}/>} />
           <Route path="/list" element={<List url={url}/>} />
